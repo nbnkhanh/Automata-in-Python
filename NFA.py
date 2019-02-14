@@ -14,6 +14,8 @@ def accept(nfa, start, ends, str):
   max_length = k + (1 + k)*len(str)
   return acceptNFA(nfa, 'q0', ['q1'], str, 0, 0, max_length)
 
+# q0: start state, q1: final state(s)
+
 def acceptNFA(nfa, start, ends, str, i, edges, max_length):
   if (edges > max_length and str != ''):
     return False

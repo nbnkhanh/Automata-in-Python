@@ -1,4 +1,4 @@
-# NFA in Python
+# Automata in Python
 
 Stuffs to help studying automata less boring + exercises checking
 

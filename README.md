@@ -14,6 +14,6 @@ Output: Accepted or Rejected. If accepted, print out the path.
 
 Convert a finite automata into a regular expression (RegEx)
 
-Input: a finite automata in dictionary data type
+Input: a finite automata in dictionary data type, with a start state and set of final states
 
 Output: a RegEx corresponds to the input
